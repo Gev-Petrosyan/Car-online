@@ -31,8 +31,17 @@ new Swiper('.swiper-comment-md', {
 
 new Swiper('.swiper-comment-sm', {
     navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: '.swiper-pagination-one',
+    },
     slidesPerView: 1
+});
+
+new Swiper('.cars-container-mobile', {
+  pagination: {
+    el: '.swiper-pagination-two',
+  },
 });
